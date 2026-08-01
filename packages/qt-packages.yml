@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/user/QtForPython/
+note: >-
+  Qt is primarily a C++ cross-platform framework and tooling company; the Qt
+  framework itself is distributed via the Qt online installer rather than a
+  language package registry. The first-party, registry-published client
+  libraries are the official "Qt for Python" bindings (PySide) and their
+  binding-generator helper, all maintained by the Qt for Python Team
+  (pyside@qt-project.org) under the official Qt project.
+packages:
+  - language: python
+    registry: pypi
+    name: PySide6
+    url: https://pypi.org/project/PySide6/
+    install: pip install PySide6
+    version: 6.11.1
+    official: true
+    description: Official Python bindings for the Qt 6 cross-platform application and UI framework.
+  - language: python
+    registry: pypi
+    name: PySide2
+    url: https://pypi.org/project/PySide2/
+    install: pip install PySide2
+    official: true
+    description: Official Python bindings for the Qt 5 cross-platform application and UI framework.
+  - language: python
+    registry: pypi
+    name: shiboken6
+    url: https://pypi.org/project/shiboken6/
+    install: pip install shiboken6
+    version: 6.11.1
+    official: true
+    description: Official Python/C++ bindings helper module used to build the PySide6 bindings.
