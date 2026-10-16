@@ -42,7 +42,7 @@ edges:
     registered_name: io.qt.qt-docs-mcp/qt-documentation
     register_id: io.qt.qt-docs-mcp/qt-documentation
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-14'
+    detected: '2026-10-15'
   mcp_registry:
     servers:
     - io.qt.qt-docs-mcp/qt-documentation
